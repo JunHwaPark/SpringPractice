@@ -39,7 +39,7 @@ deploy:
     bucket: junhwa-springboot-s3 # S3 버킷
     key: junhwa-springboot.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip
-    application: junhwa-springboot # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
+    application: awsCodeDeploy # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
     deployment_group: junhwa-springboot-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
     wait-until-deployed: true
